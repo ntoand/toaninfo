@@ -1,0 +1,50 @@
+---
+permalink: /work/
+layout: default
+public: Work
+---
+
+<div class="col-xs-12" style="height:120px;"></div>
+
+<div class="container">
+
+  <h1 class="section-header-dark">Work</h1>
+  <p>Some selected projects</p>
+
+  <div class="col-xs-12" style="height:30px;"></div>
+
+  <ul id="filters" class="clearfix">
+    <li><span class="filter" data-filter="all">All</span></li>
+    <li><span class="filter" data-filter=".visualisation">Visualisation</span></li>
+    <li><span class="filter" data-filter=".data-processing">Data processing</span></li>
+    <li><span class="filter" data-filter=".system">System</span></li>
+    <li><span class="filter" data-filter=".research">Research</span></li>
+  </ul>
+
+  <div class="col-xs-12" style="height:30px;"></div>
+
+  {% assign sortedWorks = site.data.works | sort:"link" %}
+
+  <ul id="rig">
+
+    {% for work in sortedWorks reversed %}
+      <li class="mix {{ work.categories }}">
+        <a class="rig-cell" href="{{ site.baseurl }}/{{ work.link }}">
+          <img class="rig-img" src="{{ site.baseurl }}/{{ work.image }}" />
+          <span class="rig-overlay"></span>
+          <span class="rig-text">
+            <h2>{{ work.title }}</h2>
+            <p>{{ work.description }}</p>
+          </span>
+        </a>
+      </li>
+    {% endfor %}
+
+  </ul>
+</div>
+
+<div class="col-xs-12" style="height:50px;"></div>
+
+
+  <script src="{{ site.baseurl }}/assets/js/lib/mixitup.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/work.js"></script>

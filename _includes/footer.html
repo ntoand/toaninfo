@@ -1,0 +1,23 @@
+<footer>
+  <div class="col-xs-12" style="height:30px;"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-6 copyright">&copy; Toan Nguyen 2017</div>
+      <div class="col-6 social">
+        <a id="gototop" href="#" ><span class="fa fa-arrow-up"></span></a>
+      </div>
+    </row>
+  </div>
+  <div class="col-xs-12" style="height:30px;"></div>
+</footer>
+
+<script>
+ $("#bars-icon").on("click", function() {
+     $("#mobile-nav").toggleClass("open");
+ });
+
+ $("#gototop").click(function() {
+   $("html, body").animate({ scrollTop: 0 }, "slow");
+   return false;
+ });
+</script>

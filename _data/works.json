@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Gigapoint - display large point datasets",
+    "description": "Display large datasets on desktop/CAVE2",
+    "categories": "visualisation data-processing",
+    "link": "work/2017-gigapoint.html",
+    "image": "assets/imgs/work/2017-gigapoint/01.jpg"
+  },
+  {
+    "title": "Pair correlation",
+    "description": "Calculate pair correlation for FCS",
+    "categories": "data-processing",
+    "link": "work/2017-correlation.html",
+    "image": "assets/imgs/work/2017-correlation/01.jpg"
+  },
+  {
+    "title": "Encube - Large-scale comparative visualisation",
+    "description": "Large-scale comparative visualisation of sets of multidimensional data",
+    "categories": "visualisation data-processing",
+    "link": "work/2016-encube.html",
+    "image": "assets/imgs/work/2016-encube/01.jpg"
+  },
+  {
+    "title": "Virtual slice viewer",
+    "description": "Virtual slice viewer for the CAVE2",
+    "categories": "visualisation",
+    "link": "work/2015-vsviewer.html",
+    "image": "assets/imgs/work/2015-vsviewer/01.jpg"
+  },
+  {
+    "title": "Imaging informatics repository",
+    "description": "Design, implementation and operation",
+    "categories": "system",
+    "link": "work/2014-informatics.html",
+    "image": "assets/imgs/work/2014-informatics/01.jpg"
+  },
+  {
+    "title": "The Monash CAVE2",
+    "description": "Hybrid 2D and 3D VR environment",
+    "categories": "visualisation system",
+    "link": "work/2014-cave2.html",
+    "image": "assets/imgs/work/2014-cave2/01.jpg"
+  },
+  {
+    "title": "MPEG-4 to H.264 transcoder",
+    "description": "C++ implementation of video transcoder",
+    "categories": "research",
+    "link": "work/2007-transcoder.html",
+    "image": "assets/imgs/work/2007-transcoder/01.jpg"
+  },
+  {
+    "title": "Distributed video coding (DVC)",
+    "description": "C++ implementation of distributed video coding",
+    "categories": "research",
+    "link": "work/2007-dvc.html",
+    "image": "assets/imgs/work/2007-dvc/01.jpg"
+  },
+  {
+    "title": "NWFC game engine and dead rising game",
+    "description": "Design and implementation of 3D game engine and 3D games",
+    "categories": "visualisation",
+    "link": "work/2005-nwfc.html",
+    "image": "assets/imgs/work/2005-nwfc/01.jpg" 
+  }
+]

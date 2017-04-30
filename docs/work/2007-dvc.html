@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Distributed video coding (DVC)</title>
+  <meta name="description" content="Toan Nguyen homepage / porfolio / blog">
+  <link rel="shortcut icon" type="image/png" href="/assets/imgs/favicon.png"/>
+
+  <link rel="canonical" href="http://www.toaninfo.com/work/2007-dvc">
+  <link rel="alternate" type="application/rss+xml" title="Toan Nguyen Homepage" href="/feed.xml">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/timeline.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  
+</head>
+
+
+  <body>
+
+    <header>
+
+  <div class="header-area hidden-xs-down">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-lg-2 col-sm-3 col-xs-12">
+          <a href="/">
+            <div class="logo">
+              <img class="logo-header" src="/assets/imgs/tn_logo_full.png" alt="Toan Nguyen logo">
+            </div>
+          </a>
+        </div>
+        <div class="col-md-10 col-lg-10 col-sm-9 hidden-xs">
+          <div class="mainmenu">
+            <nav>
+              <ul id="nav">
+                <li><a href="/">Home</a></li>
+                <li><a href="/work">Work</a></li>
+                <li><a href="/publication">Publication</a></li>
+                <li><a href="/contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-nav-area hidden-sm-up">
+    <a href="/">
+      <div class="logo">
+        <img class="logo-header-mobile" src="/assets/imgs/tn_logo_full.png" alt="Toan Nguyen logo">
+      </div>
+    </a>
+    <div class="container">
+      <div class="row bars-area">
+        <span id="bars-icon"><i class="fa fa-bars fa-2x"></i></span>
+      </div>
+
+      <nav id="mobile-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/work">Work</a></li>
+          <li><a href="/publication">Publication</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+</header>
+
+
+    <div class="col-xs-12" style="height:120px;"></div>
+
+    <div class="container project">
+
+      <h1 class="section-header-dark title">Distributed video coding (DVC)</h1>
+
+      <div class="col-xs-12" style="height:20px;"></div>
+
+      <h3 id="platforms-windows"><strong>Platforms:</strong> Windows</h3>
+
+<h3 id="built-with-c-visual-studio-c"><strong>Built with:</strong> C++, Visual Studio C++</h3>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Distributed Video Coding (DVC) is a new video paradigm based on two information theorems: the Slepian-Wolf and Wyner-Ziv. In this new video paradigm, the source statistic is exploited at the decoder only so the complexity is shifted from the encoder to the decoder. Since the encoding requirement is much lower than that of conventional video codec, the DVC codec is very useful in some emerging applications such as wireless low-power surveillance systems, wireless PC cameras, multimedia sensor network and mobile camera phones.</p>
+
+<h2 id="project-objective">Project objective</h2>
+
+<p>The main objective of the project is to develop a working distributed video coding tool with a strong potential for new applications. We will focus on building a working C DVC version with acceptable performance. Our DVC codec is designed and implemented based on the well-known Stanford and DISCOVER architectures. Some advanced modules such as minimum rate estimation may be included in our implementation to improve the codec system.</p>
+
+<h2 id="main-features">Main features</h2>
+
+<ul>
+  <li>Our design is based on feedback-channel DVC systems (Stanford and DISCOVER).</li>
+  <li>We focus on implementing a DCT domain DVC codec.</li>
+  <li>Using DCT block 4x4 and LPDCA with code length 1584 bits for QCIF video format, and code length 6336 for CIF video format.</li>
+  <li>Using H.264 for coding Intra frame.</li>
+  <li>Offline Laplacian parameters (sent from the encoder to the decoder).</li>
+  <li>The system is developed in Visual C with only standard libraries.</li>
+  <li>The system includes the configuration file to control the system parameters.</li>
+  <li>The system works fast enough (below 100ms for encoding and around 2 minutes for decoding one WZ frame with QCIF format (the decoding time depends on desired quality)).</li>
+  <li>The system is comparable with available DVC codec systems at least in slow motion test video sequences.</li>
+  <li>The system is extendable, clear code and easy to understand.</li>
+  <li>This version supports the QCIF, CIF, and VGA video format with Y component (other components can be extended easily).</li>
+  <li>This version supports the GOP is 2 (1 WZ frame is inserted between 2 key frames).</li>
+</ul>
+
+<p><img src="http://www.toaninfo.com/assets/imgs/work/2007-dvc/02.jpg" alt="DVC Diagram" class="image-center" /></p>
+<p class="caption">Diagram</p>
+
+
+      <div class="col-xs-12" style="height:40px;"></div>
+
+    </div>
+
+    <footer>
+  <div class="col-xs-12" style="height:30px;"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-6 copyright">&copy; Toan Nguyen 2017</div>
+      <div class="col-6 social">
+        <a id="gototop" href="#" ><span class="fa fa-arrow-up"></span></a>
+      </div>
+    </row>
+  </div>
+  <div class="col-xs-12" style="height:30px;"></div>
+</footer>
+
+<script>
+ $("#bars-icon").on("click", function() {
+     $("#mobile-nav").toggleClass("open");
+ });
+
+ $("#gototop").click(function() {
+   $("html, body").animate({ scrollTop: 0 }, "slow");
+   return false;
+ });
+</script>
+
+
+  </body>
+
+</html>
