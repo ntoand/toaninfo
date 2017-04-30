@@ -17,8 +17,8 @@ title: Toan Nguyen Homepage
 email: ntoand@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Toan Nguyen homepage / porfolio / blog
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.toaninfo.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/toaninfo" # the subpath of your site, e.g. /blog
+url: "https://ntoand.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ntoand
 github_username:  ntoand
 future: true
