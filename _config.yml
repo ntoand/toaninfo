@@ -1,36 +1,29 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Toan Nguyen Homepage
+title: Toan Nguyen | Homepage
 email: ntoand@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Toan Nguyen homepage / porfolio / blog
+  Toan Nguyen homepage, portfolio, blog
+keywords: Toan Dinh Nguyen, homepage, portfolio, research, blog, publication
 baseurl: "/toaninfo" # the subpath of your site, e.g. /blog
 url: "https://ntoand.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ntoand
 github_username:  ntoand
 future: true
 
+#permalink: /blog/:categories/:year/:month/:day/:title/
+permalink: /blog/:year/:month/:day/:title/
+
 # Build settings
 markdown: kramdown
-#theme: minima
 gems:
   - jekyll-feed
 
 sass:
-    style: compressed
+  style: compressed
 
 exclude:
   - Gemfile
@@ -50,3 +43,6 @@ include:
   - _pages
 
 google_analytics: UA-23920900-4
+
+disqus:
+  shortname: toan-nguyen-blog

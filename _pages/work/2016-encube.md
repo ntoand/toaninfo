@@ -2,6 +2,7 @@
 permalink: /work/2016-encube
 layout: work
 title: Encube - Large-scale comparative visualisation
+keywords: visualisation, opengl
 ---
 
 ### **Platforms:** Linux, MacOS
@@ -27,13 +28,13 @@ I contributed to the development, testing and data preparation for the project. 
 - automatically tracked the workflow, so that the sequence of interactions could be recorded and then replayed;
 - was sufficiently portable that a single solution could be deployed in different display environments, including on a standard desktop computer and monitor.
 
-![Components of encube]({{ site.url }}/assets/imgs/work/2016-encube/02.jpg){: .image-center }
+![Components of encube]({{ site.baseurl }}/assets/imgs/work/2016-encube/02.jpg){: .image-center }
 <p class="caption">Components of encube</p>
 
-![encube in action]({{ site.url }}/assets/imgs/work/2016-encube/03.jpg){: .image-center }
+![encube in action]({{ site.baseurl }}/assets/imgs/work/2016-encube/03.jpg){: .image-center }
 <p class="caption">encube in action. (A) Photograph of a subset of five out of the 20 four-panel columns of the Monash CAVE2. (B) Selecting screens within the meta-controller leads to the display of a frame (pink) around the selected screens in the CAVE2. (C) Visualisation outputs showing different galaxy morphologies taken from the THINGS galaxy survey (Walter et al., 2008)</p>
 
-![Meta controller]({{ site.url }}/assets/imgs/work/2016-encube/04.jpg){: .image-center }
+![Meta controller]({{ site.baseurl }}/assets/imgs/work/2016-encube/04.jpg){: .image-center }
 <p class="caption">Meta controller. (A) A miniature representation of the Monash CAVE2’s 4 rows by 20 columns configuration; (B) action buttons; (C) the dataset viewer (allows the survey to be sorted by multiple criteria); and (D) request/display quantitative information about data from one or multiple screens (e.g., a histogram is shown here for galaxy NGC1569 currently on screen A1)</p>
 
 <div class="footnote"><a name="footnote1">1</a>: Vohl D, Barnes DG, Fluke CJ, Poudel G, Georgiou-Karistianis N, Hassan AH, Benovitski Y, Wong TH, Kaluza OL, Nguyen TD, Bonnington CP. (2016) Large-scale comparative visualisation of sets of multidimensional data. PeerJ Computer Science 2:e88 https://doi.org/10.7717/peerj-cs.88</div>

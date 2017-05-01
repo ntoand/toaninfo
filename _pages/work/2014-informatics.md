@@ -2,6 +2,7 @@
 permalink: /work/2014-informatics
 layout: work
 title: Imaging informatics repository
+keywords: imaging, DICOM, informatics
 ---
 
 ## Introduction
@@ -27,11 +28,11 @@ The research imaging data management system ensures long-term usability, integri
 - users should be able to manually package and upload processed data and record provenance (e.g. link to the source data set/s)
 - and a command-line based tool must be available that enables search of the image informatics system, and upload and download of data collections, for use in batch processing workflows.
 
-![The acquisition and automated data flows]({{ site.url }}/assets/imgs/work/2014-informatics/02.jpg){: .image-center }
+![The acquisition and automated data flows]({{ site.baseurl }}/assets/imgs/work/2014-informatics/02.jpg){: .image-center }
 <p class="caption">The acquisition and automated data flows</p>
 
-![User interaction]({{ site.url }}/assets/imgs/work/2014-informatics/03.jpg){: .image-center }
+![User interaction]({{ site.baseurl }}/assets/imgs/work/2014-informatics/03.jpg){: .image-center }
 <p class="caption">User interaction</p>
 
-![User interface for DaRIS. The web based user interface of DaRIS showing the main interface panel in (a) and the "cart" functionality in (b)]({{ site.url }}/assets/imgs/work/2014-informatics/04.jpg){: .image-center }
+![User interface for DaRIS. The web based user interface of DaRIS showing the main interface panel in (a) and the "cart" functionality in (b)]({{ site.baseurl }}/assets/imgs/work/2014-informatics/04.jpg){: .image-center }
 <p class="caption">User interface for DaRIS. The web based user interface of DaRIS showing the main interface panel in (a) and the "cart" functionality in (b)</p>

@@ -2,6 +2,7 @@
 permalink: /work/2015-vsviewer
 layout: work
 title: Virtual slice viewer
+keywords: virtual slice, opengl, viewer
 ---
 
 ### **Platforms:** Linux, MacOS
@@ -17,8 +18,8 @@ title: Virtual slice viewer
 - Support wand and keyboard to switch between images, zoom, pan
 - Support stereo display by combining left and right images
 
-![Using vsviewer to do presentation]({{ site.url }}/assets/imgs/work/2015-vsviewer/02.jpg){: .image-center }
+![Using vsviewer to do presentation]({{ site.baseurl }}/assets/imgs/work/2015-vsviewer/02.jpg){: .image-center }
 <p class="caption">Using vsviewer to do presentation</p>
 
-![View high resolution images]({{ site.url }}/assets/imgs/work/2015-vsviewer/03.jpg){: .image-center }
+![View high resolution images]({{ site.baseurl }}/assets/imgs/work/2015-vsviewer/03.jpg){: .image-center }
 <p class="caption">View high resolution images</p>
