@@ -9,16 +9,16 @@
   <title>MPEG-4 to H.264 transcoder</title>
   <meta name="description" content="Toan Nguyen homepage, portfolio, blog">
   <meta name="keywords" content="transcoder, MPEG-4, H.264, video">
-  <link rel="shortcut icon" type="image/png" href="/toaninfo/assets/imgs/favicon.png"/>
+  <link rel="shortcut icon" type="image/png" href="/assets/imgs/favicon.png"/>
 
-  <link rel="canonical" href="https://ntoand.github.io/toaninfo/work/2007-transcoder">
-  <link rel="alternate" type="application/rss+xml" title="Toan Nguyen | Homepage" href="/toaninfo/feed.xml">
+  <link rel="canonical" href="http://www.toaninfo.com/work/2007-transcoder">
+  <link rel="alternate" type="application/rss+xml" title="Toan Nguyen | Homepage" href="/feed.xml">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/toaninfo/assets/css/main.css">
-  <link rel="stylesheet" href="/toaninfo/assets/css/timeline.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/timeline.css">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
@@ -52,7 +52,7 @@
         <div class="col-md-2 col-lg-2 col-sm-3 col-xs-12">
           <a href="/">
             <div class="logo">
-              <img class="logo-header" src="/toaninfo/assets/imgs/tn_logo_full.png" alt="Toan Nguyen logo">
+              <img class="logo-header" src="/assets/imgs/tn_logo_full.png" alt="Toan Nguyen logo">
             </div>
           </a>
         </div>
@@ -60,10 +60,10 @@
           <div class="mainmenu">
             <nav>
               <ul id="nav">
-                <li><a href="/toaninfo/">Home</a></li>
-                <li><a href="/toaninfo/work">Work</a></li>
-                <li><a href="/toaninfo/publication">Publication</a></li>
-                <li><a href="/toaninfo/contact">Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/work">Work</a></li>
+                <li><a href="/publication">Publication</a></li>
+                <li><a href="/contact">Contact</a></li>
               </ul>
             </nav>
           </div>
@@ -75,7 +75,7 @@
   <div class="mobile-nav-area hidden-sm-up">
     <a href="/">
       <div class="logo">
-        <img class="logo-header-mobile" src="/toaninfo/assets/imgs/tn_logo_full.png" alt="Toan Nguyen logo">
+        <img class="logo-header-mobile" src="/assets/imgs/tn_logo_full.png" alt="Toan Nguyen logo">
       </div>
     </a>
     <div class="container">
@@ -85,10 +85,10 @@
 
       <nav id="mobile-nav">
         <ul>
-          <li><a href="/toaninfo/">Home</a></li>
-          <li><a href="/toaninfo/work">Work</a></li>
-          <li><a href="/toaninfo/publication">Publication</a></li>
-          <li><a href="/toaninfo/contact">Contact</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/work">Work</a></li>
+          <li><a href="/publication">Publication</a></li>
+          <li><a href="/contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -117,12 +117,12 @@
   <li>The transcoder not using Rate Distortion Optimization</li>
 </ul>
 
-<p><img src="/toaninfo/assets/imgs/work/2007-transcoder/02.jpg" alt="Transcoder diagram" class="image-center" /></p>
+<p><img src="/assets/imgs/work/2007-transcoder/02.jpg" alt="Transcoder diagram" class="image-center" /></p>
 <p class="caption">Transcoder diagram</p>
 
 <p>In this architecture the input MPEG-4 bitstream is decoded by MPEG-4 decoder. The transcoder decodes and encodes frame by frame. After decoding one frame, the frame data is transferred to H.264 encoder as input frame and the motion estimation is reused to reduce encoding time. Because the motion compensation module in H.264 encoder accounts 60-70% of total cost, reusing motion information from MPEG-4 decoder significantly reduces encode time.</p>
 
-<p><img src="/toaninfo/assets/imgs/work/2007-transcoder/03.jpg" alt="Some results" class="image-center" /></p>
+<p><img src="/assets/imgs/work/2007-transcoder/03.jpg" alt="Some results" class="image-center" /></p>
 <p class="caption">Some results</p>
 
 
