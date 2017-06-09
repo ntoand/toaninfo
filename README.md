@@ -10,4 +10,5 @@ bundle exec jekyll serve
 **Build to docs**
 ```
 JEKYLL_ENV=production bundle exec jekyll build -d docs
+cp CNAME docs/CNAME
 ```
