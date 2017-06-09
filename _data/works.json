@@ -1,5 +1,19 @@
 [
   {
+    "title": "Tessellation terrain renderer",
+    "description": "Desktop/CAVE2 terrain rendering using tessellation shaders",
+    "categories": "visualisation data-processing",
+    "link": "work/2017-tessterrain.html",
+    "image": "assets/imgs/work/2017-tessterrain/01.jpg"
+  },
+  {
+    "title": "Previs - visualise volume and mesh",
+    "description": "Data renderer and gateway to the Monash CAVE2",
+    "categories": "visualisation data-processing web-dev",
+    "link": "work/2017-previs.html",
+    "image": "assets/imgs/work/2017-previs/01.jpg"
+  },
+  {
     "title": "Gigapoint - display large point datasets",
     "description": "Display large datasets on desktop/CAVE2",
     "categories": "visualisation data-processing",
@@ -60,6 +74,6 @@
     "description": "Design and implementation of 3D game engine and 3D games",
     "categories": "visualisation",
     "link": "work/2005-nwfc.html",
-    "image": "assets/imgs/work/2005-nwfc/01.jpg" 
+    "image": "assets/imgs/work/2005-nwfc/01.jpg"
   }
 ]

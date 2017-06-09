@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Gigapoint - display large point datasets</title>
+  <title>Desktop/CAVE2 terrain rendering using tessellation shaders</title>
   <meta name="description" content="Toan Nguyen homepage, portfolio, blog">
-  <meta name="keywords" content="pointcloud, potree">
+  <meta name="keywords" content="terrain, tessellation, shaders">
   <link rel="shortcut icon" type="image/png" href="/assets/imgs/favicon.png"/>
 
-  <link rel="canonical" href="http://www.toaninfo.com/work/2017-gigapoint">
+  <link rel="canonical" href="http://www.toaninfo.com/work/2017-tessterrain">
   <link rel="alternate" type="application/rss+xml" title="Toan Nguyen | Homepage" href="/feed.xml">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -98,39 +98,37 @@
 
     <div class="container project">
 
-      <h1 class="section-header-dark title">Gigapoint - display large point datasets</h1>
+      <h1 class="section-header-dark title">Desktop/CAVE2 terrain rendering using tessellation shaders</h1>
 
       <div class="col-xs-12" style="height:20px;"></div>
 
       <h3 id="platforms-linux-macos"><strong>Platforms:</strong> Linux, MacOS</h3>
 
-<h3 id="built-with-cmake-c-omegalib-opengl"><strong>Built with:</strong> CMake, C++, Omegalib, OpenGL</h3>
+<h3 id="built-with-c-opengl-cmake-glsl"><strong>Built with:</strong> C++, OpenGL, CMake, GLSL</h3>
 
-<h3 id="source-httpsgithubcommivpgigapoint"><strong>Source:</strong> <a href="https://github.com/mivp/gigapoint" target="_blank">https://github.com/mivp/gigapoint</a></h3>
+<p>The program can render big terrain data on desktop and the Monash CAVE2 using tessellation shaders. Other data (weather, image, job, population…) can be displayed on the terrain.</p>
 
-<p>Gigapoint is an <a href="https://github.com/uic-evl/omegalib" target="_blank">Omegalib</a> module to display large points datasets (e.g. LIDAR data) on desktop and visualisation cluster e.g. the CAVE2.</p>
+<h3 id="source-httpsgithubcommivptessterrain"><strong>Source:</strong> <a href="https://github.com/mivp/tessterrain" target="_blank">https://github.com/mivp/tessterrain</a></h3>
 
 <h3 id="features"><strong>Features</strong></h3>
 
 <ul>
-  <li>Use <a href="http://potree.org/" target="_blank">potree</a> data as input</li>
-  <li>Asynchronous and multi-threading file loading</li>
-  <li>Support stereo display</li>
-  <li>Eye Doom Lighting (EDL) filter</li>
-  <li>Support live data update from a SLAM system</li>
-  <li>Support data interaction with multiple wands e.g. track finding</li>
+  <li>Render big terrain (e.g. Victoria, Australia)</li>
+  <li>Overlay vector field, 3D objects, images on the terrain</li>
+  <li>Support different display modes (wireframe, texture and wireframe, texture and lighting…)</li>
 </ul>
 
-<p><img src="/assets/imgs/work/2017-gigapoint/02.jpg" alt="Century mine" class="image-center" /></p>
-<p class="caption"><a href="https://en.wikipedia.org/wiki/Century_Mine" target="_blank">Century mine</a> (350 million points) dataset <sup>[1]</sup></p>
+<p><img src="/assets/imgs/work/2017-tessterrain/02.jpg" alt="Visualise VIC DEM" class="image-center" /></p>
+<p class="caption">Visualise VIC DEM</p>
 
-<p><img src="/assets/imgs/work/2017-gigapoint/03.jpg" alt="Century mine surrouding dataset (750 million points)" class="image-center" /></p>
-<p class="caption">Century mine surrouding dataset (750 million points) <sup>[1]</sup></p>
+<p><img src="/assets/imgs/work/2017-tessterrain/03.jpg" alt="Colormap and wireframe display mode" class="image-center" /></p>
+<p class="caption">Colormap and wireframe display mode</p>
 
-<p><img src="/assets/imgs/work/2017-gigapoint/04.jpg" alt="Coloured by evelation with EDL filter" class="image-center" /></p>
-<p class="caption">Coloured by evelation with EDL filter</p>
+<p><img src="/assets/imgs/work/2017-tessterrain/04.jpg" alt="Overlay weather data" class="image-center" /></p>
+<p class="caption">Overlay weather data</p>
 
-<div class="footnote"><a name="footnote1">1</a>:LIDAR data provided by Steve Micklethwaite to MIVP</div>
+<p><img src="/assets/imgs/work/2017-tessterrain/05.jpg" alt="Overlay SA4 job data" class="image-center" /></p>
+<p class="caption">Overlay SA4 job data</p>
 
 
       <div class="col-xs-12" style="height:40px;"></div>

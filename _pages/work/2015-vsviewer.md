@@ -9,6 +9,8 @@ keywords: virtual slice, opengl, viewer
 
 ### **Built with:** CMake, C++, OpenMPI, OpenGL, EVL Omicron
 
+### **Source:** [https://github.com/mivp/vsviewer](https://github.com/mivp/vsviewer){:target="_blank"}
+
 ### **Main features:**
 
 - Support DeepZoom and OpenSlide inputs (histology images, high-resolution images)
