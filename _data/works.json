@@ -1,5 +1,12 @@
 [
   {
+    "title": "Powered mobility aids access on buses",
+    "description": "Collision detection and path finding of mobility aids inside buses",
+    "categories": "visualisation data-processing",
+    "link": "work/2018-bus.html",
+    "image": "assets/imgs/work/2018-bus/01.jpg"
+  },
+  {
     "title": "Tessellation terrain renderer",
     "description": "Desktop/CAVE2 terrain rendering using tessellation shaders",
     "categories": "visualisation data-processing",
