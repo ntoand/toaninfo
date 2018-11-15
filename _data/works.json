@@ -42,6 +42,13 @@
     "image": "assets/imgs/work/2016-encube/01.jpg"
   },
   {
+    "title": "Evidence Gap Map (EGM)",
+    "description": "Evidence Gap Map (EGM) for Food Security Northern Uplands",
+    "categories": "visualisation data-processing web-dev",
+    "link": "work/2016-egm.html",
+    "image": "assets/imgs/work/2016-egm/01.jpg"
+  },
+  {
     "title": "Virtual slice viewer",
     "description": "Virtual slice viewer for the CAVE2",
     "categories": "visualisation",
