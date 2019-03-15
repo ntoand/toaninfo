@@ -1,5 +1,12 @@
 [
   {
+    "title": "Interactive WebGL Superdiversity",
+    "description": "Webpage to view and interact with super-diversity data",
+    "categories": "visualisation data-processing web-dev",
+    "link": "work/2018-superdiversity.html",
+    "image": "assets/imgs/work/2019-superdiversity/01.jpg"
+  },
+  {
     "title": "Powered mobility aids access on buses",
     "description": "Collision detection and path finding of mobility aids inside buses",
     "categories": "visualisation data-processing",
