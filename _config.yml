@@ -21,6 +21,7 @@ permalink: /blog/:year/:month/:day/:title/
 markdown: kramdown
 gems:
   - jekyll-feed
+  - jekyll-sitemap
 
 sass:
   style: compressed

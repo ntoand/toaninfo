@@ -1,16 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://www.toaninfo.com/</loc>
-  <lastmod>2019-03-15T00:03:44+00:00</lastmod>
+<loc>https://www.toaninfo.com/blog/2017/05/01/my-post/</loc>
+<lastmod>2017-05-01T23:04:49+10:00</lastmod>
 </url>
-
-
+<url>
+<loc>https://www.toaninfo.com/work/2005-nwfc</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/work/2007-dvc</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/work/2007-transcoder</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/work/2014-cave2</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/work/2014-informatics</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/work/2015-vsviewer</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/work/2016-egm</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/work/2016-encube</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/work/2017-correlation</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/work/2017-gigapoint</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/work/2017-previs</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/work/2017-tessterrain</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/work/2018-bus</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/work/2018-superdiversity</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/404</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/contact/</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/publication/</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/blog/</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/work/</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/</loc>
+</url>
+<url>
+<loc>https://www.toaninfo.com/assets/imgs/work/2005-nwfc/0112085-0112287.pdf</loc>
+<lastmod>2017-05-01T11:08:46+10:00</lastmod>
+</url>
 </urlset>
