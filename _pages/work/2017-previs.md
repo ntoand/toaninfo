@@ -36,3 +36,5 @@ This is a service provided by MIVP to Monash University staff and affiliates. It
 
 ![WebGL potree pointcloud viewer]({{ site.baseurl }}/assets/imgs/work/2017-previs/08.jpg){: .image-center }
 <p class="caption">WebGL potree pointcloud viewer</p>
+
+### **Source:** [https://github.com/mivp/previs](https://github.com/mivp/previs){:target="_blank"}

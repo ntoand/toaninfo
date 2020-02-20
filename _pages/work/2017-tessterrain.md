@@ -9,9 +9,9 @@ keywords: terrain, tessellation, shaders
 
 ### **Built with:** C++, OpenGL, CMake, GLSL
 
-The program can render big terrain data on desktop and the Monash CAVE2 using tessellation shaders. Other data (weather, image, job, population...) can be displayed on the terrain.  
+The program can render big terrain data on desktop and the Monash CAVE2 using tessellation shaders. Other data (weather, image, job, population...) can be displayed on the terrain.
 
-### **Source:** [https://github.com/mivp/tessterrain](https://github.com/mivp/tessterrain){:target="_blank"}
+### **Source:** [https://github.com/ntoand/tessterrain](https://github.com/ntoand/tessterrain){:target="_blank"}
 
 ### **Features**
 

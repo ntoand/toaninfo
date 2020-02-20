@@ -9,7 +9,7 @@ keywords: virtual slice, opengl, viewer
 
 ### **Built with:** CMake, C++, OpenMPI, OpenGL, EVL Omicron
 
-### **Source:** [https://github.com/mivp/vsviewer](https://github.com/mivp/vsviewer){:target="_blank"}
+### **Source:** [https://github.com/ntoand/vsviewer](https://github.com/ntoand/vsviewer){:target="_blank"}
 
 ### **Main features:**
 

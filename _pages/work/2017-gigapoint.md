@@ -9,7 +9,7 @@ keywords: pointcloud, potree
 
 ### **Built with:** CMake, C++, Omegalib, OpenGL
 
-### **Source:** [https://github.com/mivp/gigapoint](https://github.com/mivp/gigapoint){:target="_blank"}
+### **Source:** [https://github.com/ntoand/gigapoint](https://github.com/ntoand/gigapoint){:target="_blank"}
 
 Gigapoint is an <a href="https://github.com/uic-evl/omegalib" target="_blank">Omegalib</a> module to display large points datasets (e.g. LIDAR data) on desktop and visualisation cluster e.g. the CAVE2.
 
