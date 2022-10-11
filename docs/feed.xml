@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://www.toaninfo.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.toaninfo.com/" rel="alternate" type="text/html" /><updated>2022-10-11T14:28:42+11:00</updated><id>https://www.toaninfo.com/feed.xml</id><title type="html">Toan Nguyen | Homepage</title><subtitle>Toan Nguyen homepage, portfolio, blog
+</subtitle><entry><title type="html">My first post</title><link href="https://www.toaninfo.com/blog/2017/05/01/my-post/" rel="alternate" type="text/html" title="My first post" /><published>2017-05-01T23:04:49+10:00</published><updated>2017-05-01T23:04:49+10:00</updated><id>https://www.toaninfo.com/blog/2017/05/01/my-post</id><content type="html" xml:base="https://www.toaninfo.com/blog/2017/05/01/my-post/"><![CDATA[<p>This is a blog <code class="language-plaintext highlighter-rouge">post</code></p>
+
+<p>Code snippets</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p><a href="#">link</a></p>]]></content><author><name>Toan Nguyen</name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[This is a blog post]]></summary></entry></feed>
